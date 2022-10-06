@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0 auto;
+    text-align: center;
+    width:1310px;
+}
+main {
+    background-color:white;
+    width:900px;
+    margin: 0 auto;
+}
+
+header {
+    width:850px;
+    height:50px;
+    color: white;
+    border: 1px solid red;
+    margin: 0 auto;
+    /* padding-bottom:10px;
+    padding:20px; */
+}
+
+h1 {
+    float: left;
+    position: relative;
+    color:#007D7B;
+    font-size: 25px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin:15px;
+}
