@@ -66,7 +66,8 @@ nav li:hover {
 .aboutimg {
     float:left;
     width:850px;
-     height:420px;
+    height:300px;
+    max-width:100%;
 }
 
 /* Gallery Section */
