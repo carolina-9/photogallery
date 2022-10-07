@@ -3,23 +3,24 @@ body {
     font-family:Arial, Helvetica, sans-serif ;
     margin: 0 auto;
     text-align: center;
-    width:1310px;
+    /* width:1310px; */
 }
 main {
     background-color:white;
-    width:900px;
+    width:1310px;
     margin: 0 auto;
+    padding:20px;
 }
 
 header {
-    width:850px;
+    width:1310px;
     height:50px;
     color: white;
-    border: 1px solid red;
     margin: 0 auto;
-    /* padding-bottom:10px;
-    padding:20px; */
+    margin-bottom:20px;
 }
+
+/*  Nav Bar*/
 
 h1 {
     float: left;
@@ -27,10 +28,174 @@ h1 {
     color:#007D7B;
     font-size: 25px;
 }
+nav ul {
+    float: right;
+    position: relative;
 
+}
 nav li {
     list-style: none;
     display: inline-block;
-    float: right;
-    margin:15px;
+    font-size:20px; 
+    padding: 0px 60px 0px 60px;
+    
 }
+nav li:hover {
+    color:#007D7B;
+    transition: 0.3s;
+}
+/* About Section */
+
+.aboutme {
+    display: inline-block;
+    width:1310px;
+}
+.abouttext {
+    text-align: right;
+    width:400px;
+    float:right;
+    clear:right;
+
+}
+.aboutp {
+    font-size: 20px;
+}
+.aboutimg {
+    float:left;
+}
+
+/* Gallery Section */
+.gallerytext {
+text-align:left;
+}
+
+/* Image Captions */
+
+.img-container {
+position: relative;
+}
+.chile {
+    position: absolute;
+    top: -10px;
+    left: 26px;
+}
+.guatemala {
+    position: absolute;
+    top: -10px;
+    left:450px;
+    color:white;
+}
+.hawaii {
+    position: absolute;
+    top: 235px;
+    left:1160px;
+    color:white;
+}
+.iran {
+    position: absolute;
+    top: 280px;
+    left:26px;
+}
+.ireland {
+    position: absolute;
+    top: 870px;
+    left:730px;
+    color:white;
+}
+.italy {
+    position: absolute;
+    top: 870px;
+    left:885px;
+    color:white;
+}
+.maob {
+    position: absolute;
+    top: 1150px;
+    left:260px;
+    color:white;
+}
+.rockymountains {
+    position: absolute;
+    top: 910px;
+    left:450px;
+}
+.switzerland {
+    position: absolute;
+    top: 1150px;
+    left:880px;
+}
+.uk {
+    position: absolute;
+    top: 1440px;
+    left:350px;
+    color:white;
+}
+.us {
+    position: absolute;
+    top: 1200px;
+    left:460px;
+    color:white;
+}
+.wyoming {
+    position: absolute;
+    top: 1200px;
+    left:900px;
+    color:white;
+}
+/* Contact Section */
+.contact {
+    font-size:40px;
+    color:white;
+}
+.contacttext {
+color:white;
+font-size:20px;
+}
+label {
+font-size:16px;
+color:white;
+/* padding-right:330px; */
+padding-right: 530px;
+padding-bottom:20px;
+    
+}
+input {
+    width: 600px;
+    height: 25px;
+    color: #007D7B;
+    font-weight: bold;
+    padding-left:10px;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    background-color:#007D7B ;
+    color: white;
+    border-radius:10px;
+    border: 1px solid #007D7B;
+    width:300px;
+    height: 38px;
+    margin-bottom:20px;
+}
+/* Top Button */
+ button {
+    border-color: #007D7B;
+    border: 1px solid #007D7B;
+    background:#007D7B ;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color:white;
+    font-size:10px;
+    height:25px;
+ }
+ button:hover {
+background-color: white;
+border-color:white;
+color: #007D7B;
+transition: 0.3s;
+
+ }
+ footer p {
+    font-size:15px;
+    color: white;
+ }

@@ -9,53 +9,76 @@
 </head>
 <body>
     <header>
-        <h1>TK Photography</h1>
+        <h1>TK PHOTOGRAPHY</h1>
         <nav>
             <ul>
-                <li>Contact</li>
-                <li>Gallery</li>
-                <li>About</li>
+                <li>ABOUT</li>
+                <li>GALLERY</li>
+                <li>CONTACT</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>About</h2>
-            <img src="tk photogallery/TK.png" alt="TK Photography">
-            <p>Hello!</p>
-            <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-            </p>
+        <section class="aboutme">
+            <div class="abouttext">
+                <h2 class="aboutheader">ABOUT</h2>
+                <p class="aboutp">Hello!</p>
+                <p class="aboutp">I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
+                </p>
+            </div>
+            <img src="tkphotogallery/TK.png" alt="TK Photography" width:"850" height:"420" class="aboutimg">
         </section>  
-        <section>
-            <h2>Gallery</h2>
-            <p>Here are some highlights of my work. 
-            The locations and year are in the caption. 
-            </p>
-            <img src="tk photogallery/Chile.png" alt="Chile">
-            <img src="tk photogallery/Guatemala.png" alt="Guatemala">
-            <img src="tk photogallery/Hawaii.png" alt="Hawaii">
-            <img src="tk photogallery/Iran.png" alt="Iran">
-            <img src="tk photogallery/Ireland.png" alt="Ireland"> 
-            <img src="tk photogallery/Italy.png" alt="Italy">
-            <img src="tk photogallery/Moab-Desert.png" alt="Moab-Desert">
-            <img src="tk photogallery/Rocky-Mountains.png" alt="Rocky Mountains">
-            <img src="tk photogallery/Switzerland.png" alt="Switzerland">
-            <img src="tk photogallery/UK.png" alt="UK">
-            <img src="tk photogallery/USA (1).png" alt="US">
+        <section class="gallery">
+            <div class="gallerytext">
+                <h2 class="galleryheader">GALLERY</h2>
+                <p class="gallery">Here are some highlights of my work. 
+                The locations and year are in the caption. 
+                </p>
+            </div>
+            </section>
+            <section class="img-container">
+                <img src="tkphotogallery/Chile.png" alt="Chile" width:"420" height:"281">
+                    <p class="chile">CHILE,2001</p>
+                <img src="tkphotogallery/Guatemala.png" alt="Guatemala" width:"420" height:"282">
+                    <p class="guatemala">GUATEMALA,1997</p>
+                <img src="tkphotogallery/Hawaii.png" alt="Hawaii" width:"420" height:"281">
+                    <p class="hawaii">HAWAII, 2010</p>
+                <img src="tkphotogallery/Iran.png" alt="Iran" width:"420" height:"630">
+                    <p class="iran">IRAN, 1999</p>
+                <img src="tkphotogallery/Ireland.png" alt="Ireland" width:"420" height:"630">
+                    <p class="ireland">IRELAND, 2012</p> 
+                <img src="tkphotogallery/Italy.png" alt="Italy" width:"420" height:"630">
+                    <p class="italy">ITALY, 2015</p> 
+                <img src="tkphotogallery/Moab-Desert.png" alt="Moab-Desert" width:"420" height:"281">
+                    <p class="maob">MAOB DESERT, 2020</p>
+                <img src="tkphotogallery/Rocky-Mountains.png" alt="Rocky Mountains" width:"420" height:"281">
+                    <p class="rockymountains">ROCKY MOUNTAINS, 2009</p>
+                <img src="tkphotogallery/Switzerland.png" alt="Switzerland" width:"420" height:"281">
+                     <p class="switzerland">SWITZERLAND, 2014</p>
+                <img src="tkphotogallery/UK.png" alt="UK" width:"420" height:"281">
+                    <p class="uk">UK, 2005</p>
+                <img src="tkphotogallery/USA.png" alt="US" width:"420" height:"281">
+                    <p class="us">US, 2021</p>
+                <img src="tkphotogallery/Wyoming.png" alt="Wyoming" width:"420" height:"281">
+                    <p class="wyoming">WYOMING, 2021</p>
         </section>
         </main>
         <section>
-            <h2>Contact</h2>
-            <p>Please fill out this form and I’ll connect with you soon.</p>
+            <h2 class="contact">CONTACT</h2>
+            <p class="contacttext">Please fill out this form and I’ll connect with you soon.</p>
             <form>
-                <label for="fullname">Name</label><br>
-                <input type="text" id="fullname" name="fullname" value="Your Full Name"><br>
-                <label for="email">Email</label><br>
-                <input type="text" id="email" name="email" value="Enter Your Email Address"><br>
-                <label for="message">Message</label><br>
-                <input type="text" id="message" name="message" value="What Can I Help You With?"><br>
+                <label id="name" for="fullname">NAME</label><br>
+                <input type="text" id="fullname" name="fullname" value="YOUR FULL NAME"><br>
+                <label id="email" for="email">EMAIL</label><br>
+                <input type="text" id="email" name="email" value="ENTER YOUR EMAIL ADDRESS"><br>
+                <label for="message">MESSAGE</label><br>
+                <input type="text" id="message" name="message" value="WHAT CAN I HELP YOU WITH?"><br>
                 <input type="submit" value="Submit">
             </form>
+                <button> ^ <br>TOP</button>
         </section>
+        <footer>
+            <p>COPYRIGHT 2021 TK PHOTOGRAPHY</p>
+        </footer>
 </body>
 </html>
