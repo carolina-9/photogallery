@@ -65,6 +65,8 @@ nav li:hover {
 }
 .aboutimg {
     float:left;
+    width:850px;
+     height:420px;
 }
 
 /* Gallery Section */
@@ -73,6 +75,15 @@ nav li:hover {
 }
 .gallerytext {
 text-align:left;
+}
+/* Image dimensions */
+.smallimg {
+    width:420px;
+     height:281px;
+}
+.largeimg {
+    width:420px;
+    height:630px;
 }
 
 /* Image Captions */
